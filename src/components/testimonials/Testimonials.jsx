@@ -2,8 +2,6 @@ import React from 'react'
 import './testimonials.css'
 import AVTR1 from '../../assets/avatar1.jpg'
 import AVTR2 from '../../assets/avatar2.jpg'
-import AVTR3 from '../../assets/avatar3.jpg'
-import AVTR4 from '../../assets/avatar4.jpg'
 
 // import Swiper core and required modules
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
@@ -25,23 +23,13 @@ import 'swiper/css/scrollbar';
 const data = [
   {
     avatar: AVTR1,
-    name: 'Jerry Eze',
-    review: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto deleniti dicta inventore aperiam sint repellat?'
+    name: 'James E. Olaogun',
+    review: 'I highly recommend Rejoice Edokpayi for any front-end developer and UI/UX designer position. He is experienced in the field, and his skills in both areas are excellent. Rejoice is proactive, always willing to learn, and brings a strong sense of collaboration to any team. He is a valuable asset to any organization.'
   },
   {
     avatar: AVTR2,
-    name: 'Jerry Eze',
-    review: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto deleniti dicta inventore aperiam sint repellat?'
-  },
-  {
-    avatar: AVTR3,
-    name: 'Jerry Eze',
-    review: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto deleniti dicta inventore aperiam sint repellat?'
-  },
-  {
-    avatar: AVTR4,
-    name: 'Jerry Eze',
-    review: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto deleniti dicta inventore aperiam sint repellat?'
+    name: 'Jeremiah Chike Uzoma',
+    review: 'Rejoice is self motivated, proactive and also an intelligent team player. Highly experienced, creative and ver friendly to work with.'
   },
 ]
 
